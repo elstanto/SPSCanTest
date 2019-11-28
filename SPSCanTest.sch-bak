@@ -2718,4 +2718,223 @@ Text Label 7850 4000 2    50   ~ 0
 SWO
 Wire Wire Line
 	7850 4000 7500 4000
+Wire Wire Line
+	5200 4500 5700 4500
+Wire Wire Line
+	5700 4500 5700 4400
+Wire Wire Line
+	5700 4400 6100 4400
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E942FDE
+P 6550 7100
+F 0 "JP?" V 6504 7187 50  0000 L CNN
+F 1 "A5" V 6595 7187 50  0000 L CNN
+F 2 "" H 6550 7100 50  0001 C CNN
+F 3 "~" H 6550 7100 50  0001 C CNN
+	1    6550 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E951BD1
+P 5950 7100
+F 0 "JP?" V 5904 7187 50  0000 L CNN
+F 1 "A5" V 5995 7187 50  0000 L CNN
+F 2 "" H 5950 7100 50  0001 C CNN
+F 3 "~" H 5950 7100 50  0001 C CNN
+	1    5950 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E953377
+P 5350 7100
+F 0 "JP?" V 5304 7187 50  0000 L CNN
+F 1 "A5" V 5395 7187 50  0000 L CNN
+F 2 "" H 5350 7100 50  0001 C CNN
+F 3 "~" H 5350 7100 50  0001 C CNN
+	1    5350 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E953E8E
+P 4700 7100
+F 0 "JP?" V 4654 7187 50  0000 L CNN
+F 1 "A5" V 4745 7187 50  0000 L CNN
+F 2 "" H 4700 7100 50  0001 C CNN
+F 3 "~" H 4700 7100 50  0001 C CNN
+	1    4700 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E95462C
+P 4100 7100
+F 0 "JP?" V 4054 7187 50  0000 L CNN
+F 1 "A5" V 4145 7187 50  0000 L CNN
+F 2 "" H 4100 7100 50  0001 C CNN
+F 3 "~" H 4100 7100 50  0001 C CNN
+	1    4100 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5E954A02
+P 3500 7100
+F 0 "JP?" V 3454 7187 50  0000 L CNN
+F 1 "A5" V 3545 7187 50  0000 L CNN
+F 2 "" H 3500 7100 50  0001 C CNN
+F 3 "~" H 3500 7100 50  0001 C CNN
+	1    3500 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E954FAD
+P 5000 7450
+F 0 "#PWR?" H 5000 7200 50  0001 C CNN
+F 1 "GND" H 5005 7277 50  0000 C CNN
+F 2 "" H 5000 7450 50  0001 C CNN
+F 3 "" H 5000 7450 50  0001 C CNN
+	1    5000 7450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 7350 3500 7400
+Wire Wire Line
+	3500 7400 4100 7400
+Wire Wire Line
+	6550 7400 6550 7350
+Wire Wire Line
+	5000 7450 5000 7400
+Connection ~ 5000 7400
+Wire Wire Line
+	5000 7400 5350 7400
+Wire Wire Line
+	4700 7400 4700 7350
+Connection ~ 4700 7400
+Wire Wire Line
+	4700 7400 5000 7400
+Wire Wire Line
+	4100 7400 4100 7350
+Connection ~ 4100 7400
+Wire Wire Line
+	4100 7400 4700 7400
+Wire Wire Line
+	5350 7400 5350 7350
+Connection ~ 5350 7400
+Wire Wire Line
+	5350 7400 5950 7400
+Wire Wire Line
+	5950 7400 5950 7350
+Connection ~ 5950 7400
+Wire Wire Line
+	5950 7400 6550 7400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E9D7D08
+P 5000 6750
+F 0 "#PWR?" H 5000 6600 50  0001 C CNN
+F 1 "+3.3V" H 5000 6900 50  0000 C CNN
+F 2 "" H 5000 6750 50  0001 C CNN
+F 3 "" H 5000 6750 50  0001 C CNN
+	1    5000 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6850 3500 6800
+Wire Wire Line
+	3500 6800 4100 6800
+Wire Wire Line
+	6550 6800 6550 6850
+Wire Wire Line
+	5950 6850 5950 6800
+Connection ~ 5950 6800
+Wire Wire Line
+	5950 6800 6550 6800
+Wire Wire Line
+	5350 6850 5350 6800
+Connection ~ 5350 6800
+Wire Wire Line
+	5350 6800 5950 6800
+Wire Wire Line
+	5000 6800 5000 6750
+Connection ~ 5000 6800
+Wire Wire Line
+	5000 6800 5350 6800
+Wire Wire Line
+	4700 6850 4700 6800
+Connection ~ 4700 6800
+Wire Wire Line
+	4700 6800 5000 6800
+Wire Wire Line
+	4100 6850 4100 6800
+Connection ~ 4100 6800
+Wire Wire Line
+	4100 6800 4700 6800
+Wire Wire Line
+	6400 7100 6250 7100
+Wire Wire Line
+	5800 7100 5650 7100
+Wire Wire Line
+	5200 7100 5050 7100
+Wire Wire Line
+	4550 7100 4400 7100
+Wire Wire Line
+	3800 7100 3950 7100
+Wire Wire Line
+	3350 7100 3200 7100
+Text Label 3200 7100 0    50   ~ 0
+A0
+Text Label 3800 7100 0    50   ~ 0
+A1
+Text Label 4400 7100 0    50   ~ 0
+A2
+Text Label 5050 7100 0    50   ~ 0
+A3
+Text Label 5650 7100 0    50   ~ 0
+A4
+Text Label 6250 7100 0    50   ~ 0
+A5
+$Comp
+L power:GND #PWR?
+U 1 1 5EB01F74
+P 5300 4650
+F 0 "#PWR?" H 5300 4400 50  0001 C CNN
+F 1 "GND" H 5305 4477 50  0000 C CNN
+F 2 "" H 5300 4650 50  0001 C CNN
+F 3 "" H 5300 4650 50  0001 C CNN
+	1    5300 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4650 5300 4400
+Wire Wire Line
+	5300 4400 5200 4400
+Wire Wire Line
+	5200 5100 5350 5100
+Wire Wire Line
+	5200 5200 5350 5200
+Wire Wire Line
+	5200 5300 5350 5300
+Wire Wire Line
+	5200 5400 5350 5400
+Wire Wire Line
+	5200 5500 5350 5500
+Wire Wire Line
+	5200 5600 5350 5600
+Text Label 5350 5100 2    50   ~ 0
+A0
+Text Label 5350 5200 2    50   ~ 0
+A1
+Text Label 5350 5300 2    50   ~ 0
+A2
+Text Label 5350 5400 2    50   ~ 0
+A3
+Text Label 5350 5500 2    50   ~ 0
+A4
+Text Label 5350 5600 2    50   ~ 0
+A5
 $EndSCHEMATC
